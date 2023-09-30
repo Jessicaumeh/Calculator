@@ -1,22 +1,24 @@
+/* Define a custom font for the 'digital-7' family */
 @font-face {
     font-family: 'digital-7';
     src: url(./digital-7.ttf );
 }
 
-.screen{
-    font-family: 'digital-7', sans-serif;
-    display: black;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    font-size: 3.5rem;
-    height: 30px;
-    border: none;
-    background-color: #fb6b90;
-    color: white;
-    text-align:right;
-    padding-right: 20px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+/* Styling for the 'screen' class */
+.screen {
+    font-family: 'digital-7', sans-serif; /* Apply the custom 'digital-7' font and use sans-serif as a fallback */
+    display: block; /* Set the display property to 'block' */
+    margin-left: auto; /* Center the element horizontally by setting left margin to 'auto' */
+    margin-right: auto; /* Center the element horizontally by setting right margin to 'auto' */
+    width: 90%; /* Set the width to 90% of the parent element */
+    font-size: 3.5rem; /* Set the font size to 3.5 rem units */
+    height: 30px; /* Set the height to 30 pixels */
+    border: none; /* Remove any border */
+    background-color: #fb6b90; /* Set the background color to #fb6b90 */
+    color: white; /* Set the text color to white */
+    text-align: right; /* Align text to the right */
+    padding-right: 20px; /* Add 20 pixels of padding to the right */
+    padding-left: 10px; /* Add 10 pixels of padding to the left */
+    padding-top: 10px; /* Add 10 pixels of padding to the top */
+    padding-bottom: 20px; /* Add 20 pixels of padding to the bottom */
 }

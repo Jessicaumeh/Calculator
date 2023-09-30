@@ -1,17 +1,12 @@
-import React from 'react';
-import './outputRow.css';
+import React from 'react'; // Importing React
+import './outputRow.css'; // Importing CSS styles
 
-const OutputRow = props => {
-    return(
+const OutputRow = props => { // Declaring a functional component named OutputRow
+    return (
         <div>
-            <input type='text' readOnly className='screen' style={props.textSize} value={props.value}></input>
+            <input type='text' readOnly className='screen' style={props.textSize} value={props.value}></input> {/* Creating an input element */}
         </div>
-
-
     )
-
 }
 
-export default OutputRow
-
-
+export default OutputRow; // Exporting the OutputRow component
